@@ -10,14 +10,14 @@
 Open a terminal in the repository root:
 
 ```bash
-javac Task01/StringBenchmark.java && java -cp Task01 StringBenchmark
-javac Task02/CollectionBenchmark.java && java -cp Task02 CollectionBenchmark
-javac Task03/Attendance.java && java -cp Task03 Attendance
-javac Task03/AttendanceOriginal.java && java -cp Task03 AttendanceBeforeFix
-javac Task04/PharmacyInventory.java && java -cp Task04 PharmacyInventory
-javac Task05/LeaderboardDemo.java && java -cp Task05 LeaderboardDemo
-javac Task06/Triage.java && java -cp Task06 Triage
-javac Task07/RedesignBenchmark.java && java -cp Task07 RedesignBenchmark
+javac Question1/StringBenchmark.java && java -cp Question1 StringBenchmark
+javac Question2/CollectionBenchmark.java && java -cp Question2 CollectionBenchmark
+javac Question3/Attendance.java && java -cp Question3 Attendance
+javac Question3/AttendanceOriginal.java && java -cp Question3 AttendanceBeforeFix
+javac Question4/PharmacyInventory.java && java -cp Question4 PharmacyInventory
+javac Question5/LeaderboardDemo.java && java -cp Question5 LeaderboardDemo
+javac Question6/Triage.java && java -cp Question6 Triage
+javac Question7/RedesignBenchmark.java && java -cp Question7 RedesignBenchmark
 ```
 
 Benchmark programs write CSV files in the current working directory. Run each from the repository root if you want the CSV there, or from its task folder to keep data inside that folder. Each benchmark uses repeated trials and multiple input sizes. Re-run on your own computer for your experimental evidence because execution times depend on the machine and JVM.
