@@ -13,7 +13,7 @@ Open a terminal in the repository root:
 javac Task01/StringBenchmark.java && java -cp Task01 StringBenchmark
 javac Task02/CollectionBenchmark.java && java -cp Task02 CollectionBenchmark
 javac Task03/Attendance.java && java -cp Task03 Attendance
-javac Task03/AttendanceBeforeFix.java && java -cp Task03 AttendanceBeforeFix
+javac Task03/AttendanceOriginal.java && java -cp Task03 AttendanceBeforeFix
 javac Task04/PharmacyInventory.java && java -cp Task04 PharmacyInventory
 javac Task05/LeaderboardDemo.java && java -cp Task05 LeaderboardDemo
 javac Task06/Triage.java && java -cp Task06 Triage
